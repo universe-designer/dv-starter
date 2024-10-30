@@ -1,0 +1,14 @@
+datavault4dbt:
+  outputs:
+    dev:
+      host: localhost
+      password: "{{ env_var('DBT_ENV_SECRET_PASSWORD') }}"
+      port: 1521
+      protocol: tcp
+      schema: scott
+      sid: XE
+      service: XE
+      threads: 1
+      type: oracle
+      user: scott
+  target: dev

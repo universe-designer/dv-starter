@@ -1,0 +1,16 @@
+
+target/
+dbt_packages/
+logs/
+.idea/
+DDL/
+models/
+dbt-public-release.code-workspace
+integration_tests/dbt_packages
+dbt_project*
+dv-generator.cmd
+dv-session.cmd
+set_pw.cmd
+packages.yml
+
+
