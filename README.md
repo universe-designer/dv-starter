@@ -9,8 +9,8 @@ This project is a collection of Windows batch files to install, preconfigure and
 - updates pip
 - installs dbt-oracle
 - clones repositories 
-  - datavault4dbt custom oracle branch with advanced features
-  - turbovault4dbt custom oracle branch with advanced features
+  - [datavault4dbt](https://github.com/universe-designer/datavault4dbt) custom oracle branch with advanced features
+  - [turbovault4dbt](https://github.com/universe-designer/turbovault4dbt)  custom oracle branch with advanced features
   - dbt-utils
   - dbt_constraints
 - copies configuration files
