@@ -1,3 +1,6 @@
+<h1 align=center>DV Starter</h1>
+<img src="https://user-images.githubusercontent.com/dv-starter.png" width=100% align=center>
+
 # dv-starter
 This project containts Windows shell scripts to install, preconfigure and work with datavault4dbt and turbovault4dbt in an Oracle environment. 
 
