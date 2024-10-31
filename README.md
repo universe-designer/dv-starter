@@ -31,3 +31,9 @@ The statements are generated for all models in datavault4dbt\models\
 - META_GRANT: Grant statements for stage schema object to core schema user
 - META_CONSTRAINTS: ALTER commands to enable / disable foreign key constraints
 - META_INDEXES: ALTER commands to change the index tablespace
+
+### Requirements
+- Windows cmd.exe
+- PowerShell
+- Python
+- Git (only for dv-developer.cmd)
