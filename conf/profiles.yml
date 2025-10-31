@@ -1,3 +1,9 @@
+# In the terminal session that starts dbt set the environment variables
+# Test your connection with command "dbt debug"
+# In Linux:
+# export DBT_ENV_SECRET_PASSWORD=your_db_user_password
+# In Windows:
+# set DBT_ENV_SECRET_PASSWORD=your_db_user_password
 datavault4dbt:
   outputs:
     dev:
@@ -12,3 +18,26 @@ datavault4dbt:
       type: oracle
       user: scott
   target: dev
+
+# use this configuration if you're using a wallet
+# In the terminal session that starts dbt set the environment variables
+# Test your connection with command "dbt debug"
+# In Linux:
+# export DBT_ENV_SECRET_PASSWORD=your_db_user_password
+# export WALLET_LOCATION=/path/to/directory_containing_ewallet.pem
+# export WALLET_PASSWORD=***
+# export TNS_ADMIN=/path/to/directory_containing_tnsnames.ora
+# In Windows:
+# set DBT_ENV_SECRET_PASSWORD=your_db_user_password
+# set WALLET_PASSWORD=***
+# set TNS_ADMIN=/path/to/directory_containing_tnsnames.ora
+# datavault4dbt:
+  # outputs:
+    # dev:
+      # password: "{{ env_var('DBT_ENV_SECRET_PASSWORD') }}"
+      # schema: scott
+      # threads: 1
+      # type: oracle
+      # user: scott      
+	  # tns_name: tns_name_medium #references entry in tnsnames.ora
+  # target: dev
